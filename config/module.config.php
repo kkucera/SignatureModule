@@ -15,8 +15,8 @@ return array(
 
     'controllers' => array(
         'invokables' => array(
-            'ZendSkeletonModule\Controller\Skeleton' => 'ZendSkeletonModule\Controller\SkeletonController',
-            'SignatureModule\Controller\Console' => 'SignatureModule\Controller\ConsoleController'
+            'SignatureModule\Controller\Index' => 'SignatureModule\Controller\IndexController',
+            'SignatureModule\Controller\Pad' => 'SignatureModule\Controller\PadController'
         ),
     ),
 
@@ -30,7 +30,7 @@ return array(
                     'defaults' => array(
                         // Change this value to reflect the namespace in which
                         // the controllers for your module are found
-                        '__NAMESPACE__' => 'SignatureModule\src\SignatureModule\Controller',
+                        '__NAMESPACE__' => 'SignatureModule\Controller',
                         'controller'    => 'Index',
                         'action'        => 'index',
                     ),

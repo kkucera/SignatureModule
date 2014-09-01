@@ -3,7 +3,7 @@
  * @copyright Copyright (c) 2014 WebPT, INC
  */
 
-namespace SignatureModule\src\SignatureModule\Controller;
+namespace SignatureModule\Controller;
 
 use EMRCore\Zend\Mvc\Controller\ActionControllerAbstract;
 use Zend\Http\PhpEnvironment\Response;
