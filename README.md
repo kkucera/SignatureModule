@@ -18,4 +18,12 @@ The module is setup to be able to serve is assets from with in the module.  In o
 
 In order for this to work the hosting application must register the AssetManager as one of its modules.
 
+    return array(
+        'modules' => array(
+            'AssetManager', 
+            'Application',
+            // ... other modules
+        ),
+    );
+
 This module uses this Javascript library: http://thomasjbradley.ca/lab/signature-pad
