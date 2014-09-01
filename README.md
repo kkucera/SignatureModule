@@ -14,7 +14,7 @@ To use the module you should include it as a composer dependency.
         "kkucera/SignatureModule": "dev-master"
     }
 
-The module is setup to be able to serve is assets from with in the module.  In order to do this it uses and has a dependency on the AssetManager module.
+The module is setup to be able to serve is assets from with in the module.  In order to do this it uses and has a dependency on the AssetManager (https://github.com/RWOverdijk/AssetManager) module.
 
 In order for this to work the hosting application must register the AssetManager as one of its modules.
 
