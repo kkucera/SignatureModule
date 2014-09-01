@@ -30,7 +30,7 @@ return array(
                     'defaults' => array(
                         // Change this value to reflect the namespace in which
                         // the controllers for your module are found
-                        '__NAMESPACE__' => 'SignatureModule\Controller',
+                        '__NAMESPACE__' => 'SignatureModule\src\Controller',
                         'controller'    => 'Index',
                         'action'        => 'index',
                     ),
