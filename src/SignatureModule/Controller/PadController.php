@@ -5,7 +5,14 @@
 
 namespace SignatureModule\src\SignatureModule\Controller;
 
+use EMRCore\Zend\Mvc\Controller\ActionControllerAbstract;
 
-class PadController {
+class PadController extends ActionControllerAbstract
+{
+
+    public function displayAction()
+    {
+
+    }
 
 } 
