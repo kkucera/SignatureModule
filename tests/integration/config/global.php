@@ -36,8 +36,8 @@ return array(
 
     'service_manager' => array(
         'invokables' => array(
-            'Integration\src\DeskModule\Company\CompanyDepender' => 'Integration\src\DeskModule\Company\CompanyDepender',
-            'Integration\src\DeskModule\Customer\CustomerDepender' => 'Integration\src\DeskModule\Customer\CustomerDepender',
+            'Integration\src\SignatureModule\Company\CompanyDepender' => 'Integration\src\SignatureModule\Company\CompanyDepender',
+            'Integration\src\SignatureModule\Customer\CustomerDepender' => 'Integration\src\SignatureModule\Customer\CustomerDepender',
         ),
     ),
 );

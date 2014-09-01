@@ -3,7 +3,7 @@
  * @copyright Copyright (c) 2014 WebPT, INC
  */
 
-namespace Integration\src\DeskModule\Client;
+namespace Integration\src\SignatureModule\Client;
 
 
 class BlankTest {

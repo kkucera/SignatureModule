@@ -25,7 +25,7 @@ use Zend\Config\Processor\Token;
 $moduleConfig = new ZendConfig(include __DIR__ . '/../../vendor/WebPT/EMRCore/src/EMRCore/Config/config/global.php', true);
 
 // Module config.
-$module = new DeskModule\Module;
+$module = new SignatureModule\Module;
 $moduleConfig->merge(new ZendConfig($module->getConfig()));
 
 // Integration global config.

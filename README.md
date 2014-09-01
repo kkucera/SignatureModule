@@ -20,7 +20,7 @@ In order for this to work the hosting application must register the AssetManager
 
     return array(
         'modules' => array(
-            'AssetManager', 
+            'AssetManager',
             'Application',
             // ... other modules
         ),

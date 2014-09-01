@@ -16,7 +16,7 @@ return array(
     'controllers' => array(
         'invokables' => array(
             'ZendSkeletonModule\Controller\Skeleton' => 'ZendSkeletonModule\Controller\SkeletonController',
-            'DeskModule\Controller\Console' => 'DeskModule\Controller\ConsoleController'
+            'SignatureModule\Controller\Console' => 'SignatureModule\Controller\ConsoleController'
         ),
     ),
 
@@ -65,8 +65,8 @@ return array(
 //    ),
 //
 //    'DoctrineConnectorInitializer' => array(
-//        'DeskModule\DoctrineConnector\MasterSlaveAwareInterface' => 'desk_master_slave',
-//        'DeskModule\DoctrineConnector\App\MasterSlaveAwareInterface' => 'desk_app_master_slave',
+//        'SignatureModule\DoctrineConnector\MasterSlaveAwareInterface' => 'desk_master_slave',
+//        'SignatureModule\DoctrineConnector\App\MasterSlaveAwareInterface' => 'desk_app_master_slave',
 //    ),
 //
 //    'di' => array(
@@ -81,17 +81,17 @@ return array(
 //        'invokables' => array(
 //
 //            // Register the following services so that they do not fall back to DI. DI will doubly register event listeners.
-//            'DeskModule\Company\Company' => 'DeskModule\Company\Company',
-//            'DeskModule\Map\Company' => 'DeskModule\Map\Company',
-//            'DeskModule\Client\Company\Company' => 'DeskModule\Client\Company\Company',
+//            'SignatureModule\Company\Company' => 'SignatureModule\Company\Company',
+//            'SignatureModule\Map\Company' => 'SignatureModule\Map\Company',
+//            'SignatureModule\Client\Company\Company' => 'SignatureModule\Client\Company\Company',
 //
-//            'DeskModule\Customer\Customer' => 'DeskModule\Customer\Customer',
-//            'DeskModule\Map\Customer' => 'DeskModule\Map\Customer',
-//            'DeskModule\Client\Customer\Customer' => 'DeskModule\Client\Customer\Customer',
+//            'SignatureModule\Customer\Customer' => 'SignatureModule\Customer\Customer',
+//            'SignatureModule\Map\Customer' => 'SignatureModule\Map\Customer',
+//            'SignatureModule\Client\Customer\Customer' => 'SignatureModule\Client\Customer\Customer',
 //
-//            'DeskModule\Client\Customer\Response\Validator' => 'DeskModule\Client\Customer\Response\Validator',
+//            'SignatureModule\Client\Customer\Response\Validator' => 'SignatureModule\Client\Customer\Response\Validator',
 //
-//            'DeskModule\Queue\Service' => 'DeskModule\Queue\Service',
+//            'SignatureModule\Queue\Service' => 'SignatureModule\Queue\Service',
 //        ),
 //    ),
 //

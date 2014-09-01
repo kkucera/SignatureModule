@@ -7,7 +7,7 @@
  * @license   http://framework.zend.com/license/new-bsd New BSD License
  */
 
-namespace DeskModule;
+namespace SignatureModule;
 
 use EMRCore\Zend\Module\Console\ModuleEventAbstract;
 use Zend\Console\Adapter\AdapterInterface;
