@@ -22,7 +22,7 @@ return array(
 
     'router' => array(
         'routes' => array(
-            'signature' => array(
+            'SignatureModule' => array(
                 'type'    => 'Literal',
                 'options' => array(
                     // Change this to something specific to your module
@@ -30,7 +30,7 @@ return array(
                     'defaults' => array(
                         // Change this value to reflect the namespace in which
                         // the controllers for your module are found
-                        '__NAMESPACE__' => 'SignatureModule\src\Controller',
+                        '__NAMESPACE__' => 'SignatureModule\src\SignatureModule\Controller',
                         'controller'    => 'Index',
                         'action'        => 'index',
                     ),
