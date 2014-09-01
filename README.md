@@ -16,13 +16,15 @@ To use the module you should include it as a composer dependency.
 
 The module is setup to be able to serve is assets from with in the module.  In order to do this it uses and has a dependency on the AssetManager (https://github.com/RWOverdijk/AssetManager) module.
 
-In order for this to work the hosting application must register the AssetManager as one of its modules.
+The hosting application must register the dependent modules in it's application config.
+You must register both the AssetManager and the SignatureModule.
 
     return array(
         'modules' => array(
             'AssetManager',
             'Application',
-            // ... other modules
+            // ... other modules,
+            'SignatureModules',
         ),
     );
 
