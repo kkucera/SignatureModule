@@ -2,9 +2,9 @@
 /**
  * @copyright Copyright (c) 2014 WebPT, INC
  */
-
+use SignatureModule\Pad\SignatureAsset;
 ?>
-<form method="post" action="" class="sigPad">
+<form method="post" action="<?php echo $this->basePath('signature/pad/save'); ?>" class="sigPad">
     <label for="name">Print your name</label>
     <input type="text" name="name" id="name" class="name">
     <p class="typeItDesc">Review your signature</p>
@@ -16,7 +16,10 @@
     </ul>
     <div class="sig sigWrapper">
         <div class="typed"></div>
-        <canvas class="pad" width="198" height="55"></canvas>
+        <canvas class="pad"
+                width="<? echo SignatureAsset::WIDTH - 2;?>"
+                height="<? echo SignatureAsset::HEIGHT -2;?>">
+        </canvas>
         <input type="hidden" name="output" class="output">
     </div>
     <button type="submit">I accept the terms of this agreement.</button>
