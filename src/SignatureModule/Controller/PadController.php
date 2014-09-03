@@ -28,11 +28,13 @@ class PadController extends ActionControllerAbstract
 
     public function displayAction()
     {
-
+        $this->layout('emr-layout');
+        //return new ViewModel(array());
     }
 
     public function saveAction()
     {
+        $this->layout('emr-layout');
         /** @var \Zend\Http\Request $request */
         $request = $this->getRequest();
 
