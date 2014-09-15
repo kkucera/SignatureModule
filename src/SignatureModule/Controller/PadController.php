@@ -29,7 +29,6 @@ class PadController extends ActionControllerAbstract
     public function displayAction()
     {
         $this->layout('emr-layout');
-        //return new ViewModel(array());
     }
 
     public function saveAction()
